@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T14:21:14 ICT" name="SauceDemoSuite" finished-at="2026-03-10T14:21:14 ICT" duration-ms="116">
+    <groups>
+      <group name="regression">
+        <method signature="CartTest.testAddToCart()[pri:0, instance:dtm.CartTest@2b662a77]" name="testAddToCart" class="dtm.CartTest"/>
+        <method signature="CartTest.testRemoveFromCart()[pri:0, instance:dtm.CartTest@2b662a77]" name="testRemoveFromCart" class="dtm.CartTest"/>
+        <method signature="CheckoutTest.testCheckoutCancel()[pri:0, instance:dtm.CheckoutTest@7f0eb4b4]" name="testCheckoutCancel" class="dtm.CheckoutTest"/>
+        <method signature="CheckoutTest.testCheckoutSuccess()[pri:0, instance:dtm.CheckoutTest@7f0eb4b4]" name="testCheckoutSuccess" class="dtm.CheckoutTest"/>
+        <method signature="LoginTest.testLoginFail()[pri:0, instance:dtm.LoginTest@74fe5c40]" name="testLoginFail" class="dtm.LoginTest"/>
+        <method signature="LoginTest.testLoginSuccess()[pri:0, instance:dtm.LoginTest@74fe5c40]" name="testLoginSuccess" class="dtm.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CartTest.testAddToCart()[pri:0, instance:dtm.CartTest@2b662a77]" name="testAddToCart" class="dtm.CartTest"/>
+        <method signature="CheckoutTest.testCheckoutSuccess()[pri:0, instance:dtm.CheckoutTest@7f0eb4b4]" name="testCheckoutSuccess" class="dtm.CheckoutTest"/>
+        <method signature="LoginTest.testLoginSuccess()[pri:0, instance:dtm.LoginTest@74fe5c40]" name="testLoginSuccess" class="dtm.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-03-10T14:21:14 ICT" name="SmokeTests" finished-at="2026-03-10T14:21:14 ICT" duration-ms="116">
+      <class name="dtm.CheckoutTest">
+        <test-method signature="testCheckoutCancel()[pri:0, instance:dtm.CheckoutTest@7f0eb4b4]" started-at="2026-03-10T14:21:14 ICT" name="testCheckoutCancel" finished-at="2026-03-10T14:21:14 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutCancel -->
+        <test-method signature="testCheckoutSuccess()[pri:0, instance:dtm.CheckoutTest@7f0eb4b4]" started-at="2026-03-10T14:21:14 ICT" name="testCheckoutSuccess" finished-at="2026-03-10T14:21:14 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutSuccess -->
+      </class> <!-- dtm.CheckoutTest -->
+      <class name="dtm.CartTest">
+        <test-method signature="testAddToCart()[pri:0, instance:dtm.CartTest@2b662a77]" started-at="2026-03-10T14:21:14 ICT" name="testAddToCart" finished-at="2026-03-10T14:21:14 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method signature="testRemoveFromCart()[pri:0, instance:dtm.CartTest@2b662a77]" started-at="2026-03-10T14:21:14 ICT" name="testRemoveFromCart" finished-at="2026-03-10T14:21:14 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveFromCart -->
+      </class> <!-- dtm.CartTest -->
+      <class name="dtm.LoginTest">
+        <test-method signature="testLoginFail()[pri:0, instance:dtm.LoginTest@74fe5c40]" started-at="2026-03-10T14:21:14 ICT" name="testLoginFail" finished-at="2026-03-10T14:21:14 ICT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFail -->
+        <test-method signature="testLoginSuccess()[pri:0, instance:dtm.LoginTest@74fe5c40]" started-at="2026-03-10T14:21:14 ICT" name="testLoginSuccess" finished-at="2026-03-10T14:21:14 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccess -->
+      </class> <!-- dtm.LoginTest -->
+    </test> <!-- SmokeTests -->
+  </suite> <!-- SauceDemoSuite -->
+</testng-results>

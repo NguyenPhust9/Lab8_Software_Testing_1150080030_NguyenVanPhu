@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-18T16:16:38 ICT" name="Default suite" finished-at="2026-03-18T16:16:38 ICT" duration-ms="130">
+    <groups>
+    </groups>
+    <test started-at="2026-03-18T16:16:38 ICT" name="Default test" finished-at="2026-03-18T16:16:38 ICT" duration-ms="130">
+      <class name="vn.lab.XepLoaiTest">
+        <test-method signature="testDiemKhongHopLe()[pri:0, instance:vn.lab.XepLoaiTest@384ad17b]" started-at="2026-03-18T16:16:38 ICT" name="testDiemKhongHopLe" finished-at="2026-03-18T16:16:38 ICT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiemKhongHopLe -->
+        <test-method signature="testGioi()[pri:0, instance:vn.lab.XepLoaiTest@384ad17b]" started-at="2026-03-18T16:16:38 ICT" name="testGioi" finished-at="2026-03-18T16:16:38 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGioi -->
+        <test-method signature="testKha()[pri:0, instance:vn.lab.XepLoaiTest@384ad17b]" started-at="2026-03-18T16:16:38 ICT" name="testKha" finished-at="2026-03-18T16:16:38 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testKha -->
+        <test-method signature="testThiLai()[pri:0, instance:vn.lab.XepLoaiTest@384ad17b]" started-at="2026-03-18T16:16:38 ICT" name="testThiLai" finished-at="2026-03-18T16:16:38 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThiLai -->
+        <test-method signature="testTrungBinh()[pri:0, instance:vn.lab.XepLoaiTest@384ad17b]" started-at="2026-03-18T16:16:38 ICT" name="testTrungBinh" finished-at="2026-03-18T16:16:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTrungBinh -->
+        <test-method signature="testYeuHocLai()[pri:0, instance:vn.lab.XepLoaiTest@384ad17b]" started-at="2026-03-18T16:16:38 ICT" name="testYeuHocLai" finished-at="2026-03-18T16:16:38 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYeuHocLai -->
+      </class> <!-- vn.lab.XepLoaiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
